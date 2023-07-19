@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">VotingSystem</string>
+    <string-array name="signup_options">
+        <item>Signup as a student</item>
+        <item>Signup as a candidate</item>
+    </string-array>
+
+    <string-array name="course_array">
+        <item>Faculty of Advanced Mathematics</item>
+        <item>Faculty of Advanced Physics</item>
+        <item>Faculty of Traditional Chinese Medicine</item>
+        <item>Faculty of Artificial Intelligence</item>
+    </string-array>
+</resources>
+

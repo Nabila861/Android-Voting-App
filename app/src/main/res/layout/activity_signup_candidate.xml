@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img_1"
+    tools:context=".SignupActivity_Student">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/navigation_bar"
+            android:layout_width="421dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:id="@+id/id1"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="23dp"
+            android:textStyle="bold"
+
+            android:textSize="35sp"
+            android:text="Welcome!" />
+
+        <TextView
+            android:id="@+id/id2"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="25sp"
+
+            android:text="SignUp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+            android:padding="20dp">
+
+
+            <EditText
+                android:id="@+id/signup_NameCandidate"
+                android:layout_width="350dp"
+
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/lavender_border"
+
+                android:drawablePadding="8dp"
+                android:hint="Name"
+                android:paddingLeft="12dp"
+                android:textColorHint="#686565" />
+
+            <!-- Name field -->
+            <EditText
+                android:id="@+id/signup_emailCandidate"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/lavender_border"
+                android:drawableLeft="@drawable/baseline_email_24"
+                android:drawablePadding="8dp"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="12dp"
+                android:textColorHint="#686565" />
+
+
+            <EditText
+                android:id="@+id/signup_passwordCandidate"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+
+                android:layout_marginTop="30dp"
+                android:background="@drawable/lavender_border"
+                android:drawableLeft="@drawable/baseline_password_24"
+                android:drawablePadding="8dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:paddingLeft="12dp"
+                android:textColorHint="#686565" />
+
+            <EditText
+                android:id="@+id/signup_CandidateConfirm"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+
+                android:layout_marginTop="30dp"
+                android:background="@drawable/lavender_border"
+                android:drawableLeft="@drawable/baseline_password_24"
+                android:drawablePadding="8dp"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:paddingLeft="12dp"
+                android:textColorHint="#686565" />
+
+            <Spinner
+                android:id="@+id/signup_CourseCandidate"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/lavender_border"
+                android:drawablePadding="8dp"
+                android:hint="Course"
+                android:paddingLeft="12dp"
+                android:textColorHint="#686565" />
+
+            <EditText
+                android:id="@+id/Achievements"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/lavender_border"
+                android:hint="Achievements"
+                android:inputType="textMultiLine"
+                android:paddingLeft="12dp"
+                android:gravity="center"
+                android:textColorHint="#686565"
+                android:layout_marginTop="22dp"
+                android:minLines="5"
+                android:maxLines="10" />
+
+
+
+            <EditText
+                android:id="@+id/manifesto"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/lavender_border"
+                android:hint="Write your campaign manifesto here"
+                android:inputType="textMultiLine"
+                android:paddingLeft="12dp"
+              android:gravity="center"
+                android:textColorHint="#686565"
+                android:layout_marginTop="22dp"
+                android:minLines="5"
+                android:maxLines="10" />
+
+
+            <Button
+                android:id="@+id/signup_ButtonCandidate"
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:text="Sign Up"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:cornerRadius="30dp"
+
+                />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
